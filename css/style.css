@@ -1,0 +1,46 @@
+header {
+  /* display: flex;
+  justify-content: space-between; */
+  margin-bottom: 60px;
+}
+header div:nth-of-type(1) {
+  /* display: flex;
+  flex-direction: column; */
+  float: left;
+  width: max-content;
+}
+header h4 {
+  width: 375px;
+  margin-left: 50px;
+}
+header img {
+  float: left;
+  width: max-content;
+  height: max-content;
+}
+header section {
+  display: flex;
+  margin-left: 70%;
+}
+header div:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+  width: max-content;
+  height: max-content;
+
+  ;
+}
+header div:nth-of-type(3) {
+  display: flex;
+  width: max-content;
+  height: max-content;
+}
+
+#delicious {
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+}
+
+header div h4 {
+  font-size: 12px;
+}
