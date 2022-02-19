@@ -18,24 +18,36 @@ header img {
   width: max-content;
   height: max-content;
 }
-header section {
+header section:nth-of-type(1) {
   display: flex;
   margin-left: 70%;
-}
-header div:nth-of-type(2) {
-  display: flex;
   justify-content: space-between;
+  width: 220px;
+}
+header section div:nth-of-type(1) img {
+
+   /* justify-content: space-between; */
   width: max-content;
-  height: max-content;
+  height: max-content; 
+  margin-left: 2px  
 
   ;
 }
-header div:nth-of-type(3) {
-  display: flex;
-  width: max-content;
-  height: max-content;
-}
 
+header section div:nth-of-type(2) img {
+  /* display: flex; */
+  width: max-content;
+  height: max-content; 
+  margin-left: 2px  
+
+}
+#repeat {
+background-image: url(../img/hr-img.png);
+background-repeat: repeat;
+width: 100%;
+height: 15px;
+margin-top: 50px;
+}
 #delicious {
   font-family: 'Yellowtail', cursive;
   font-size: 30px;
@@ -43,4 +55,43 @@ header div:nth-of-type(3) {
 
 header div h4 {
   font-size: 12px;
+
+}
+body{
+
+
+width: 1280px;
+  margin: auto;
+}
+
+
+h2{
+font-size: 24px;
+font-weight: 900 ;
+font-family: 'roboto condensed',sans-serif ;
+
+}
+
+
+h4{
+font-family: 'roboto condensed',sans-serif ;
+font-weight: 0;
+color: grey;
+float:left ;
+font-size: 14px;
+margin-bottom: 30px;
+margin-top: 7px;
+}
+#print{
+display: flex;
+margin-left: 95.5%;
+}
+#print img{
+
+  width: 16px;
+  height: 14px;
+}
+#choco-pizza{
+
+  width: 1280px;
 }
